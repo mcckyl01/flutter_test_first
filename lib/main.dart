@@ -47,11 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Row(
           children: <Widget>[
               InkWell( 
-                onTap : (){
-                    setState(() {
-                    'assets/title.png';             
-                    });
-                    },
+                onTap : (){},
                 child: Image.asset(
                 'assets/blue-1.png',
                 width: 100.0,
